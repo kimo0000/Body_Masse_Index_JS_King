@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Mass Index JS King</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imgs/body_mass_index.jpg">
+</head>
+<body>
+    
+    <div class="container">
+        <h3>Body Mass Index (BMI) Calculator</h3>
+        <form>
+            <div class="width">
+                <label for="weight">Your Weight (kg)</label>
+                <input type="text" id="weight" name="weight" min="50" max="120">
+            </div>
+            <div class="heig">
+                <label for="height">Your height (cm)</label>
+                <input type="text" id="height" name="height" min="1.60" max="2">
+            </div>
+            <div>
+                <button id="btn">Compute BMI</button>
+                <input type="number" name="final_result" id="final_result">
+            </div>
+        </form>
+        <div>Your Ideal Masse: <span id="ideal_body"></span></div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
